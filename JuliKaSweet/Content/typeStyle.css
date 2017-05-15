@@ -1,0 +1,168 @@
+﻿body {
+    font-family: 'Comfortaa-Bold', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Comfortaa-Bold';
+  src: url('../fonts/Comfortaa/Comfortaa-Bold.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav_wrap ul li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+    list-style-type: none;
+    text-transform: uppercase;
+    float:left; 
+}
+
+nav ul li a {
+    font-family: 'Mirza-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #f2aab6;
+    margin-left: 10px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color:pink;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    border-top: 2px solid #f2aab6;
+    border-bottom: 2px solid #f2aab6;
+    padding:30px;
+    margin: 65px 0 15px 0;
+    height: 80px;
+}
+
+.logo_nav{
+    width: 200px;
+}
+
+.logo_nav a img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -108px;
+    margin-left: 35px;
+}
+
+.body_wrap{
+    margin-top: 75px;
+    color: #1b986e;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.body_wrap h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 25px 0 10px 0;
+}
+
+.body_wrap p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.carousel img {
+  background-size:cover;
+  width: 100%;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.carousel .item {
+  height: 500px; 
+}
+
+.descr  i {
+    width: 100%;
+    
+}
+
+.descr > div {
+    margin-top: -80px;
+    margin-bottom: 35px;
+}
+
+.body_wrap .row {
+    margin-bottom: 30px;
+}
+
+.body_wrap h5 {
+    z-index: 3;
+    position: relative;
+    padding: 0 10px;
+    font-size: 24px;
+    background: #fff;
+    display: inline-block;
+}
+
+.line {
+    width: 100%;
+    border: 2px solid pink;
+    height: 1px;
+    margin-top: 19px;
+}
+
+.circ {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;    
+}
+
+.body_wrap a {
+    font-family: 'Mirza-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1b986e;
+}
+
+.body_wrap a:hover{
+    text-decoration: none;
+
+}
+
+.head_wrap>.col-md-12{
+    padding: 0;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    border: 2px solid #1b986e;
+}
+
+.carousel-indicators .active {
+    background-color: pink;
+}
+
+.carousel-caption {
+    color: pink;
+    display: inline-block;
+    bottom: -52px;
+    z-index: 25;
+}
+
+.carouseltext {
+    visibility: hidden;
+}
+
+.ll .active .carouseltext {
+    visibility: visible;
+}
