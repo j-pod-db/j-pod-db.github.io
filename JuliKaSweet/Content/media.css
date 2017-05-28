@@ -26,6 +26,43 @@ nav ul li a {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .wrap_decr_sl {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 15px;    
+}
+    .circ a img {
+        width: 50%;
+        margin: auto;
+    }
+    .head_wrap {
+    max-width: 100%;
+    
+}
+
+    .s2 {
+    width: 100%;  
+    margin: auto; 
+}
+
+    .body_wrap_n{
+    color: #1b986e;
+    text-align: center;
+    margin-bottom: 75px;
+    max-width: 100%;
+}
+
+     .body_wrap{
+    max-width: 100%;
+    margin-top: 30px;   
+}
+    li {
+        display: none;
+    }
 
     nav ul li a {
         font-size: 0.9em;
