@@ -164,11 +164,15 @@ nav ul {
 
 }
 
+.owl-theme .owl-dots .owl-dot span{
+	width: 11px;
+    height: 11px;
+}
+
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: pink;
-    border: 2px solid #1b986e;
-    width: 12px;
-    height: 12px;
+    background: #1b986e;
+    width: 11px;
+    height: 11px;
 }
 
 .wrap_decr_sl {
@@ -205,4 +209,9 @@ nav ul {
 .descr_in{
     top: -50px;
     position: relative;
+}
+
+.wrap_decr_sl h4 {
+	color:#1b986e;
+	margin-top: 30px;
 }
